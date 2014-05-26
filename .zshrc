@@ -59,7 +59,7 @@ source $ZSH/oh-my-zsh.sh
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 # export MANPATH="/usr/local/man:$MANPATH"
 
-# You may need to manually set your language environment
+ # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
 # Preferred editor for local and remote sessions
@@ -71,8 +71,6 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-
-# ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 
 # Use the GNU coreutils instead of BSD ones
@@ -83,7 +81,7 @@ export MANPATH="/usr/local/opt/coreutils/libexec/gnuman:$MANPATH"
 
 # Use directory colours
 
-test -e ~/.dircolors && \ 
+test -e ~/.dircolors &&  
    eval `dircolors -b ~/.dircolors`
 
 
