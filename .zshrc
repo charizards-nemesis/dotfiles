@@ -8,7 +8,7 @@ export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="bureau"
 
 # Example aliases
-# alias zshconfig="mate ~/.zshrc"
+alias zshconfig="vim ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Uncomment the following line to use case-sensitive completion.
@@ -89,3 +89,5 @@ alias egrep="egrep --color=always"
 
 # Add user utilities to path
 export PATH="/Users/lfitz/bin:$PATH"
+alias rb="irb --simple-prompt"
+alias hacker="grep -r . /"
