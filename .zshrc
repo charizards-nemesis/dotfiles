@@ -89,5 +89,6 @@ alias egrep="egrep --color=always"
 
 # Add user utilities to path
 export PATH="/Users/lfitz/bin:$PATH"
+# Custom aliases
 alias rb="irb --simple-prompt"
-alias hacker="grep -r . /"
+
