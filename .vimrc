@@ -12,3 +12,7 @@ Plugin 'altercation/vim-colors-solarized'
 
 filetype plugin indent on
 map <S-CR> <CR><CR>end<Esc>-cc
+
+set backup
+set backupdir=~/.vim/backup
+set directory=~/.vim/tmp

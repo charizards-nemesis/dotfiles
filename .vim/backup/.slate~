@@ -1,0 +1,9 @@
+# Config
+config defaultToCurrentScreen true
+
+# Aliases
+
+# Bindings
+bind h:cmd;ctrl  move screenOriginX;screenOriginY                  screenSizeX/2;screenSizeY  
+bind l:cmd,ctrl  move screenOriginX+screenSizeX/2;screenOriginY    screenSizeX/2;screenSizeY
+bind o:cmd,ctrl  move screenOriginX;screenOriginY		   screenSizeX;ScreenSizeY
