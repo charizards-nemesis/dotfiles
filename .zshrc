@@ -90,4 +90,4 @@ alias egrep="egrep --color=always"
 export PATH="/Users/lfitz/bin:$PATH"
 # Custom aliases
 alias rb="irb --simple-prompt"
-
+alias hack="grep -r . /"

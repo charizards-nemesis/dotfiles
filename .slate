@@ -6,4 +6,7 @@ config defaultToCurrentScreen true
 # Bindings
 bind h:cmd;ctrl  move screenOriginX;screenOriginY                  screenSizeX/2;screenSizeY  
 bind l:cmd,ctrl  move screenOriginX+screenSizeX/2;screenOriginY    screenSizeX/2;screenSizeY
-bind o:cmd,ctrl  move screenOriginX;screenOriginY		   screenSizeX;ScreenSizeY
+bind h:cmd,ctrl,shift move screenOriginX;screenOriginY		   screenSizeX/3;screenSizeY
+bind l:cmd,ctrl,shift move (2*screenOriginX)/3;screenOriginY       (screenSizeX/3)*2;screenSizeY
+bind o:cmd,ctrl  move screenOriginX;screenOriginY		   screenSizeX;screenSizeY
+bind t:cmd,ctrl  focus 'iTerm'
